@@ -13,7 +13,7 @@ namespace TiendaCOMMON.Interfaces
     public interface IProductoManager:IGenericManager<producto>
     {
         
-        IEnumerable<producto> BuscarProductosPorNombre(string criterio)
+        IEnumerable<producto> BuscarProductosPorNombre(string criterio);
         producto BuscarProductoPorNombreExacto(string nombre);
     }
 }
